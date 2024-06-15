@@ -1,0 +1,8 @@
+// Assisgn background images to classes using loop
+@import "variables";
+
+@each $name in $list-names {
+  .#{$name}-class {
+    background-image: url("/path/to/images/#{$name}.jpg");
+  }
+}
