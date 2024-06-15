@@ -1,0 +1,14 @@
+// Assign color classes while extending another class
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @extend .info;
+  color: #00ff00;
+}
+
+.warning {
+  @extend .info;
+  color: #ff0000;
+}
